@@ -389,6 +389,14 @@ li {
   background: transparent;
 }
 
+#login {
+  margin-left: 27em;
+  border: 3px solid #f5f4f4dd;
+  border-radius: 5px;
+  float: right;
+
+}
+
 .dropdown-toggle::after {
   border: 0;
   margin-left: 6px;
@@ -823,7 +831,7 @@ button:focus {
   }
 }
 .feature-section .image-content .icon-box {
-  height: 50px;
+  height: 60px;
   margin-bottom: 20px;
 }
 .feature-section .image-content .item h3 {
@@ -3322,6 +3330,6 @@ button:focus {
 }
 
 figure img {
-  height: 50px;
+  height: 60px;
 }
 /*# sourceMappingURL=style.css.map */
