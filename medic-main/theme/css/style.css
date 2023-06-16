@@ -1012,6 +1012,7 @@ button:focus {
 
 .service-section {
   position: relative;
+  background-color: rgb(255, 255, 255);
 }
 .service-section .section-title h3 {
   position: relative;
