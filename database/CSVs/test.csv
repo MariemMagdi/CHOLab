@@ -1,6 +1,7 @@
-1,genetic test,10 minutes,0001,400.00
-2,infectious disease test,45 minutes,0003,400.00
-3,blood chemistry analysis,15 minutes,0002,400.00
-5,urine analysis,45 minutes,0003,400.00
-6,toxicology screening,30 minutes,0003,400.00
-9,therapeutic drug monitoring,15 minutes,0003,400.00
+"test_id";"title";"duration";"equipment_id";"pricing"
+1;"genetic test";"10 minutes";"0001";400.0
+2;"infectious disease test";"45 minutes";"0003";400.0
+3;"blood chemistry analysis";"15 minutes";"0002";400.0
+5;"urine analysis";"45 minutes";"0003";400.0
+6;"toxicology screening";"30 minutes";"0003";400.0
+9;"therapeutic drug monitoring";"15 minutes";"0003";400.0

@@ -1,4 +1,5 @@
-0001,accounting,example,246810121
-0002,marketing,example,987654321
-0003,radiology,example,333333333
-0004,sales,example,369121518
+"department_no";"name";"location";"head_SSN"
+"0001";"accounting";"example";"246810121"
+"0002";"marketing";"example";"987654321"
+"0003";"radiology";"example";"333333333"
+"0004";"sales";"example";"369121518"

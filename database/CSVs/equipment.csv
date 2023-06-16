@@ -1,3 +1,4 @@
-0001,DNA sequencer,2022-05-01,BGI
-0002,Hematology analyzer,2022-05-01,GE
-0003,Chemistry analyzer,2022-05-01,siemens
+"equipment_id";"equipment_name";"maintenance_date";"manufacturer"
+"0001";"DNA sequencer";"2022-05-01";"BGI"
+"0002";"Hematology analyzer";"2022-05-01";"GE"
+"0003";"Chemistry analyzer";"2022-05-01";"siemens"
