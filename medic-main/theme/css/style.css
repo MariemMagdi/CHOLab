@@ -3448,4 +3448,20 @@ body {
 .icon-box figure img {
   height: 70px;
 }
+.book_now {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+#amada {
+  width: 200px;
+  text-align: center;
+  height: 70px;
+  font-size: 24px;
+  padding-top: 18px;
+  border-radius: 3px;
+  box-shadow: 0 9px 8px rgba(0, 0, 0, 0.2);
+}
 /*# sourceMappingURL=style.css.map */
