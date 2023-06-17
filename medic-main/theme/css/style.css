@@ -2335,71 +2335,144 @@ button:focus {
   font-weight: bold;
 }
 
-.promo-video {
-  position: relative;
-  padding: 150px 0;
-  background: url("../images/background/promo-video.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.promo-video:before {
-  position: absolute;
-  top: 0;
-  content: "";
-  height: 100%;
-  width: 100%;
-  background: rgba(12, 120, 163, 0.8);
-}
-.promo-video .block {
-  position: relative;
-  z-index: 10;
-}
-.promo-video h6,
-.promo-video h1,
-.promo-video i {
-  color: #fff;
-}
-.promo-video h6 {
-  font-size: 16px;
-  text-transform: uppercase;
-  font-family: "Source Sans Pro", sans-serif;
-  letter-spacing: 2px;
-}
-.promo-video h1 {
-  font-size: 60px;
-  text-transform: uppercase;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-.promo-video a {
-  display: block;
-  height: 80px;
-  width: 80px;
-  margin: 0 auto;
-  border: 5px solid #fff;
-  transition: all 0.3s ease;
-  border-radius: 100%;
-}
-.promo-video a i {
-  line-height: 70px;
-  font-size: 20px;
-}
-.promo-video a:hover {
-  transform: scale(1.1);
+body {
 }
 
-.gallery {
-  padding: 100px 0;
+.result_container {
+  background-color: rgb(254, 254, 254);
+  font-family: Arial, sans-serif;
+  color: #000000;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 70px;
 }
-.gallery .gallery-item {
-  margin-top: 30px;
-  border-radius: 6px;
-  overflow: hidden;
-  position: relative;
-  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
+
+.result_container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
 }
-.gallery .gallery-item img {
+
+.report-details {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.report-details h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.report-details ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.report-details li {
+  margin-bottom: 10px;
+  flex-basis: 50%;
+  width: 50%;
+}
+
+.test-lab table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.test-lab th,
+.test-lab td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.test-lab th {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.test-lab tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.test-lab tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.test-lab tbody td {
+  color: #333;
+}
+
+/* .promo-video {
+    position: relative;
+    padding: 150px 0;
+    background: url("../images/background/promo-video.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+  .promo-video:before {
+    position: absolute;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(12, 120, 163, 0.8);
+  }
+  .promo-video .block {
+    position: relative;
+    z-index: 10;
+  }
+  .promo-video h6,
+  .promo-video h1,
+  .promo-video i {
+    color: #fff;
+  }
+  .promo-video h6 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+    letter-spacing: 2px;
+  }
+  .promo-video h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .promo-video a {
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    transition: all 0.3s ease;
+    border-radius: 100%;
+  }
+  .promo-video a i {
+    line-height: 70px;
+    font-size: 20px;
+  }
+  .promo-video a:hover {
+    transform: scale(1.1);
+  }
+
+  .gallery {
+    padding: 100px 0;
+  }
+  .gallery .gallery-item {
+    margin-top: 30px;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
+  } */
+/* .gallery .gallery-item img {
   width: 100%;
 }
 .gallery .gallery-item:before {
@@ -2465,8 +2538,8 @@ button:focus {
   border-radius: 3px;
   overflow: hidden;
   box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
-}
-.video-gallery .video-gallery-item .image-holder img {
+} */
+/* .video-gallery .video-gallery-item .image-holder img {
   width: 100%;
 }
 .video-gallery .video-gallery-item .image-holder:before {
@@ -2514,7 +2587,7 @@ button:focus {
   text-transform: capitalize;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 20px;
-}
+} */
 
 .work-skill {
   position: relative;
