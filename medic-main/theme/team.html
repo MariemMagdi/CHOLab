@@ -60,90 +60,6 @@ FACEBOOK: https://www.facebook.com/themefisher
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
 
     <title>Laboratory Website - Login</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f2f2f2;
-      }
-
-      h2 {
-        color: #333;
-      }
-
-      form {
-        display: inline-block;
-        width: 100%;
-        margin: 20px;
-        padding: 20px;
-        background-color: #fff;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        justify-content: center;
-        align-items: center;
-      }
-
-      label {
-        display: block;
-        margin-bottom: 10px;
-      }
-
-      input[type="text"],
-      input[type="password"],
-      input[type="email"],
-      input[type="tel"],
-      select {
-        width: 100%;
-        padding: 8px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        margin-bottom: 12px;
-      }
-
-      input[type="submit"] {
-        background-color: #00bcd4;
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        align-items: center;
-        margin-left: 46%;
-      }
-
-      input[type="submit"]:hover {
-        background-color: #0097a7;
-      }
-
-      .toggle-form {
-        margin-top: 10px;
-        text-align: center;
-      }
-
-      .toggle-form a {
-        color: #666;
-        text-decoration: none;
-      }
-      #date-of-birth {
-        display: block;
-        width: 100%;
-        padding: 8px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        font-size: 14px;
-      }
-    </style>
-
-    <script>
-      function toggleForm() {
-        var loginForm = document.getElementById("login-form");
-        var signupForm = document.getElementById("signup-form");
-
-        loginForm.style.display =
-          loginForm.style.display === "none" ? "block" : "none";
-        signupForm.style.display =
-          signupForm.style.display === "none" ? "block" : "none";
-      }
-    </script>
   </head>
 
   <body>
@@ -399,10 +315,11 @@ FACEBOOK: https://www.facebook.com/themefisher
 
                     <label for="sex">Sex:</label>
                     <select id="sex" name="sex" required>
-                      <option value="">Select your sex</option>
+                      <option value="" disabled selected>
+                        Select your sex
+                      </option>
                       <option value="male">Male</option>
                       <option value="female">Female</option>
-                      <option value="other">Other</option>
                     </select>
 
                     <label for="phone">Phone:</label>
@@ -426,7 +343,7 @@ FACEBOOK: https://www.facebook.com/themefisher
               </div>
               <!--End single tab content-->
               <!--Start single tab content-->
-              <div class="team-members tab-pane fade" id="event-planning">
+              <!-- <div class="team-members tab-pane fade" id="event-planning">
                 <div class="row">
                   <div class="col-lg-4 col-md-6">
                     <div class="team-person text-center">
@@ -465,10 +382,9 @@ FACEBOOK: https://www.facebook.com/themefisher
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
               <!--End single tab content-->
               <!--Start single tab content-->
-
 
               <!--End single tab content-->
               <!--Start single tab content-->
