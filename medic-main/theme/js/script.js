@@ -1,10 +1,3 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
-
 (function ($) {
   "use strict";
 
@@ -51,30 +44,8 @@
     }
   }
 
-  // Hero Slider
-  // $('.hero-slider').slick({
-  // 	slidesToShow: 1,
-  // 	autoplay: true,
-  // 	autoplaySpeed: 5000,
-  // 	infinite: true,
-  // 	speed: 300,
-  // 	dots: true,
-  // 	arrows: true,
-  // 	fade: true,
-  // 	responsive: [{
-  // 		breakpoint: 600,
-  // 		settings: {
-  // 			arrows: false
-  // 		}
-  // 	}]
-  // });
-  // $('.hero-slider').slickAnimation();
-
   // Item Slider
   $(".items-container").slick({
-    // infinite: true,
-    // arrows: true,
-    // autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
